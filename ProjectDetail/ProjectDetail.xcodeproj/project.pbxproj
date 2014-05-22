@@ -26,6 +26,12 @@
 		E8776DEC192DEFCB00116A6C /* PDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8776DEA192DEFCB00116A6C /* PDViewController.xib */; };
 		E8D8A469192DF76E00C6A650 /* PDProjectDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8A467192DF76E00C6A650 /* PDProjectDetailCell.m */; };
 		E8D8A46A192DF76E00C6A650 /* PDProjectDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D8A468192DF76E00C6A650 /* PDProjectDetailCell.xib */; };
+		E8D8A46C192E057D00C6A650 /* arrow_indication.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D8A46B192E057D00C6A650 /* arrow_indication.png */; };
+		E8D8A46E192E058900C6A650 /* bt_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D8A46D192E058900C6A650 /* bt_add.png */; };
+		E8D8A470192E05AA00C6A650 /* bt_more_actions.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D8A46F192E05AA00C6A650 /* bt_more_actions.png */; };
+		E8D8A472192E05CF00C6A650 /* divide.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D8A471192E05CF00C6A650 /* divide.png */; };
+		E8D8A475192E086B00C6A650 /* PDProjectDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8A474192E086B00C6A650 /* PDProjectDetailModel.m */; };
+		E8D8A478192E08BD00C6A650 /* PDProjectDetailService.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D8A477192E08BD00C6A650 /* PDProjectDetailService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +69,14 @@
 		E8D8A466192DF76E00C6A650 /* PDProjectDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDProjectDetailCell.h; sourceTree = "<group>"; };
 		E8D8A467192DF76E00C6A650 /* PDProjectDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDProjectDetailCell.m; sourceTree = "<group>"; };
 		E8D8A468192DF76E00C6A650 /* PDProjectDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PDProjectDetailCell.xib; sourceTree = "<group>"; };
+		E8D8A46B192E057D00C6A650 /* arrow_indication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_indication.png; sourceTree = "<group>"; };
+		E8D8A46D192E058900C6A650 /* bt_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_add.png; sourceTree = "<group>"; };
+		E8D8A46F192E05AA00C6A650 /* bt_more_actions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bt_more_actions.png; sourceTree = "<group>"; };
+		E8D8A471192E05CF00C6A650 /* divide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divide.png; sourceTree = "<group>"; };
+		E8D8A473192E086B00C6A650 /* PDProjectDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDProjectDetailModel.h; sourceTree = "<group>"; };
+		E8D8A474192E086B00C6A650 /* PDProjectDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDProjectDetailModel.m; sourceTree = "<group>"; };
+		E8D8A476192E08BD00C6A650 /* PDProjectDetailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDProjectDetailService.h; sourceTree = "<group>"; };
+		E8D8A477192E08BD00C6A650 /* PDProjectDetailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDProjectDetailService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,10 @@
 		E8776DA0192DE9C300116A6C = {
 			isa = PBXGroup;
 			children = (
+				E8D8A471192E05CF00C6A650 /* divide.png */,
+				E8D8A46F192E05AA00C6A650 /* bt_more_actions.png */,
+				E8D8A46D192E058900C6A650 /* bt_add.png */,
+				E8D8A46B192E057D00C6A650 /* arrow_indication.png */,
 				E8776DB4192DE9C300116A6C /* ProjectDetail */,
 				E8776DD1192DE9C300116A6C /* ProjectDetailTests */,
 				E8776DAB192DE9C300116A6C /* Frameworks */,
@@ -194,6 +212,8 @@
 		E8776DE4192DE9F800116A6C /* Business Service */ = {
 			isa = PBXGroup;
 			children = (
+				E8D8A476192E08BD00C6A650 /* PDProjectDetailService.h */,
+				E8D8A477192E08BD00C6A650 /* PDProjectDetailService.m */,
 			);
 			name = "Business Service";
 			sourceTree = "<group>";
@@ -201,6 +221,8 @@
 		E8776DE5192DEA0100116A6C /* Business Model */ = {
 			isa = PBXGroup;
 			children = (
+				E8D8A473192E086B00C6A650 /* PDProjectDetailModel.h */,
+				E8D8A474192E086B00C6A650 /* PDProjectDetailModel.m */,
 			);
 			name = "Business Model";
 			sourceTree = "<group>";
@@ -303,8 +325,12 @@
 			files = (
 				E8776DEC192DEFCB00116A6C /* PDViewController.xib in Resources */,
 				E8776DB9192DE9C300116A6C /* InfoPlist.strings in Resources */,
+				E8D8A472192E05CF00C6A650 /* divide.png in Resources */,
 				E8D8A46A192DF76E00C6A650 /* PDProjectDetailCell.xib in Resources */,
+				E8D8A46E192E058900C6A650 /* bt_add.png in Resources */,
+				E8D8A46C192E057D00C6A650 /* arrow_indication.png in Resources */,
 				E8776DC4192DE9C300116A6C /* Images.xcassets in Resources */,
+				E8D8A470192E05AA00C6A650 /* bt_more_actions.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,10 +349,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D8A478192E08BD00C6A650 /* PDProjectDetailService.m in Sources */,
 				E8D8A469192DF76E00C6A650 /* PDProjectDetailCell.m in Sources */,
 				E8776DEB192DEFCB00116A6C /* PDViewController.m in Sources */,
 				E8776DBF192DE9C300116A6C /* PDAppDelegate.m in Sources */,
 				E8776DC2192DE9C300116A6C /* ProjectDetail.xcdatamodeld in Sources */,
+				E8D8A475192E086B00C6A650 /* PDProjectDetailModel.m in Sources */,
 				E8776DBB192DE9C300116A6C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

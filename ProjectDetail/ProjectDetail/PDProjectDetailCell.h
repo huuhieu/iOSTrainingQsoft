@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDProjectDetailModel.h"
 
 @interface PDProjectDetailCell : UITableViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *name;
+@property (weak, nonatomic) IBOutlet UILabel *status;
+@property (weak, nonatomic) IBOutlet UILabel *startDate;
+@property (weak, nonatomic) IBOutlet UILabel *endDate;
+
+@property (nonatomic, strong) PDProjectDetailModel* model;
 
 @end

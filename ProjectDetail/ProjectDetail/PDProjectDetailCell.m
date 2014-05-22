@@ -22,4 +22,14 @@
     // Configure the view for the selected state
 }
 
+- (void)setModel:(PDProjectDetailModel *)model
+{
+    _model = model;
+    [self.name setText:_model.name];
+    [self.startDate setText:_model.startDate];
+    [self.endDate setText:_model.endDate];
+    [self.status setText:_model.status];
+}
+
+
 @end
